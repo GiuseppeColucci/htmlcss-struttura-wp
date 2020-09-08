@@ -9,11 +9,32 @@
       height: 200px;
       margin-bottom: 10px;
     }
+
+    /* contenitori centrali */
     main{
-      background:pink;
+      background:;
       height: 500px;
       margin-bottom: 10px;
     }
+    main .sidebar,
+    main .main-content{
+      float: left;
+    }
+    main .sidebar{
+      width: 28%;
+      height: 500px;
+      background:#ff00a745;
+      margin-right: 2%;
+
+    }
+    main .main-content{
+      width: 28%;
+      height: 500px;
+      background:#80007e;;
+    }
+
+
+
     footer{
       background: blue;
       height: 200px;
