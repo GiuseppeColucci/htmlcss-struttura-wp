@@ -1,7 +1,7 @@
 
     *{
-      margin:20;
-      padding: 0;
+
+      padding:0;
       box-sizing: border-box;
     }
     header{
@@ -21,21 +21,40 @@
       float: left;
     }
     main .sidebar{
-      width: 28%;
+      width: calc(25% - 20px);
       height: 500px;
       background:#ff00a745;
-      margin-right: 2%;
+      margin-right: 20px;
 
     }
     main .main-content{
-      width: 28%;
+      width: calc(50% - 20px);
       height: 500px;
-      background:#80007e;;
+      background:#80007e;
+      margin-right: 20px;
     }
+    .ultima{
+      width: 25%;
+      height: 500px;
+      background:red;
 
 
+      float: left;
+    }
+    .prova{
+      width: 100%;
+      height: 50%;
+      background:green;
+      padding: 10px;
+    }
+    .prova.uno{
+      background:purple;
+      margin-bottom: 20px;
+      height: calc(50% - 20px);
+    }
+    /* fine parte centrale */
 
     footer{
-      background: blue;
+      background: #00ffff9c;
       height: 200px;
     }
